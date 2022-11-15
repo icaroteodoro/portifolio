@@ -1,0 +1,53 @@
+#inicio {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(63.13deg, black 51.04%, rgb(39, 39, 39) 51.05%);
+}
+#inicio #resumo{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 25px;
+}
+#inicio #resumo p{
+    transition: 0.5s;
+    position: static;
+}
+#inicio #resumo p:hover{
+    color: white;
+    transform: scale(1.05);
+}
+#inicio #resumo p{
+    color: gray;
+}
+#inicio #resumo span{
+    font-size: 75px;
+}
+
+#inicio img{
+    position: absolute;
+    top: 200px;
+    right: 15%;
+    transition: 0.5s;
+}
+#inicio img:hover{
+    transform: scale(1.05);
+}
+#inicio #resumo #linkedin{
+    width: 400px;
+    height: 160px;
+    
+}
+#inicio #resumo #linkedin img{
+    border-radius: 100px;
+    width: 40%;
+    height: 40%;
+    margin: 0;
+    padding: 0;
+    filter: opacity(0.5) drop-shadow(0 0 0 black);
+    transition: 0.5s;
+}
+#inicio #resumo #linkedin img:hover{
+    filter: opacity(0.9) drop-shadow(0 0 0 gray);
+}

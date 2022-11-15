@@ -1,0 +1,40 @@
+#sobre{
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(-63.13deg, black 49.04%, rgb(39, 39, 39) 49.05%);
+}
+
+#sobre h1{
+    position: relative;
+    top: 130px;
+    margin: auto;
+    width: 325px;
+    color: gray;
+    transition: 0.5s;
+    font-size: 60px;
+}
+#sobre h1:hover{
+    color: white;
+    transform: scale(1.05);
+}
+#sobre #text{ 
+    display: flex;
+    position: relative;
+    align-items: center;
+    top: 250px;
+    width: 100%;
+    font-size: 30px;
+    color: gray;
+}
+
+#sobre #text #text-1{
+    position: relative;
+    left: 9%;
+    width: 30%;
+}
+#sobre #text #text-2{
+    position: relative;
+    left: 30%;
+    width: 30%;
+}
