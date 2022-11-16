@@ -1,0 +1,65 @@
+#habilidades{
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(-63.13deg, black 49.04%, rgb(39, 39, 39) 49.05%);
+}
+
+#habilidades h1{
+    position: relative;
+    top: 130px;
+    margin: auto;
+    width: 285px;
+    color: gray;
+    transition: 0.5s;
+    font-size: 60px;
+}
+#habilidades h1:hover{
+    color: white;
+    transform: scale(1.05);
+}
+
+#habilidades #area-habilidades{
+    position: relative;
+    text-align: center;
+    margin: auto;
+    top: 250px;
+    display: flex;
+    width: 70%;
+    height: 400px;
+}
+#habilidades #area-habilidades div{
+    position: relative;
+    text-align: center;
+    margin: auto;
+    background-color: gray;
+    border: solid 3px;
+    border-color: rgb(255, 255, 255);
+    height: 140px;
+    width: 140px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+#habilidades #area-habilidades div span{
+    color: transparent;
+    transition: 0.5s;
+}
+
+
+
+#habilidades #area-habilidades div img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 15px;
+}
+#habilidades #area-habilidades div:hover{
+    transform: scale(1.30);
+    background-color: white;
+    border-color: gray;
+}
+#habilidades #area-habilidades div:hover span{
+    
+    font-size: 200%;
+    color: white;
+}
